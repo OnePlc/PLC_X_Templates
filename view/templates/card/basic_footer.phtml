@@ -1,0 +1,30 @@
+<?php
+/**
+ * basic_footer.phtml - Basic Card Footer
+ *
+ * Footer Template file for Basic Bootstrap Card
+ *
+ * @category Template
+ * @package Template
+ * @author Verein onePlace
+ * @copyright (C) 2021  Verein onePlace <admin@1plc.ch>
+ * @license https://opensource.org/licenses/BSD-3-Clause
+ * @version 1.0.0
+ * @since 1.0.0
+ */
+?>
+
+<?php if(isset($sButtonLabel)) { ?>
+    <button type="submit" class="btn btn-success btn-lg plc-card-savebutton">
+        <?=(isset($sButtonIcon)) ? '<i class="'.$sButtonIcon.'"></i> ' : ''?><?=$sButtonLabel?>
+    </button>
+<?php } ?>
+
+<?php if(isset($bCancelButton)) {
+    if($bCancelButton) { ?>
+    <a href="<?=$sCancelButtonAction?>" class="btn <?=(isset($sCancelButtonClass)) ? $sCancelButtonClass : 'btn-secondary'?> btn-lg">
+        <?=$this->translate((isset($sCancelButtonLabel)) ? $sCancelButtonLabel : 'Cancel')?>
+    </a>
+<?php
+    }
+}
