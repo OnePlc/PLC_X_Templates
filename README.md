@@ -9,7 +9,11 @@
 
 This is a collection of templates to build software with onePlace
 
-- Cards
+**You can actually use this collection of bootstrap based html templates for every laminas-mvc based application**
+
+### Included Components
+
+- [Cards](https://getbootstrap.com/docs/4.0/components/card/)
 
 ## Installation
 
