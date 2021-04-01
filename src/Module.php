@@ -13,7 +13,7 @@
  * @since 1.0.0
  */
 
-namespace OnePlace\Template;
+namespace OnePlace\Templates;
 
 use Laminas\Mvc\MvcEvent;
 use Laminas\ModuleManager\ModuleManager;

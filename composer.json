@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "OnePlace\\Template\\": "src/"
+            "OnePlace\\Templates\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "OnePlaceTest\\Template\\": "test/"
+            "OnePlaceTest\\Templates\\": "test/"
         }
     },
     "scripts": {
@@ -47,7 +47,7 @@
     },
     "extra": {
         "zf": {
-            "module": "OnePlace\\Template"
+            "module": "OnePlace\\Templates"
         }
     }
 }
