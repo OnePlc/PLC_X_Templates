@@ -13,7 +13,7 @@
  * @since 1.0.0
  */
 
-namespace OnePlace\Template;
+namespace OnePlace\Templates;
 
 use Laminas\Mvc\MvcEvent;
 use Laminas\ModuleManager\ModuleManager;
@@ -24,7 +24,7 @@ class Module {
      *
      * @since 1.0.0
      */
-    const VERSION = '1.0.0';
+    const VERSION = '1.0.1';
 
     /**
      * Load module config file

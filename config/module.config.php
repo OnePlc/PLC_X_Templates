@@ -13,7 +13,7 @@
  * @since 1.0.0
  */
 
-namespace OnePlace\Template;
+namespace OnePlace\Templates;
 
 use Laminas\Router\Http\Literal;
 use Laminas\Router\Http\Segment;
@@ -28,7 +28,7 @@ return [
     # View Settings
     'view_manager' => [
         'template_path_stack' => [
-            'template' => __DIR__ . '/../view',
+            'templates' => __DIR__ . '/../view',
         ],
     ],
 
